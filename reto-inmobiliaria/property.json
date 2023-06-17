@@ -1,0 +1,71 @@
+{
+"properties":[
+    {
+    "id": "1",
+    "name": "The Willows",
+    "Address": "3517 W. Gray St. Utica",
+    "bedrooms": "4",
+    "bathrooms": "2",
+    "surface": "250 ft²",
+    "rental": "$450/m",
+    "grade": "4.8",
+    "image": "https://images.adsttc.com/media/images/5f10/71a6/b357/65e1/f700/0074/large_jpg/PORTADA_3.jpg?1594913184"
+
+    },
+    {
+    "id": "2",
+    "name": "Orchard House",
+    "Address": "3517 W. Gray St. Utica",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "surface": "200 ft²",
+    "rental": "$220/m",
+    "grade": "4.0",
+    "image": "https://images.adsttc.com/media/images/5f10/8232/b357/651e/7600/0184/medium_jpg/01._Esquina_Tonala_bloqe_onnis_luque.jpg?1594917420"
+    },
+{
+    "id": "3",
+    "name": "Orchard House",
+    "Address": "3517 W. Gray St. Utica",
+    "bedrooms": "3",
+    "bathrooms": "3",
+    "surface": "330 ft²",
+    "rental": "$540/m",
+    "grade": "4.9",
+    "image": "https://img10.naventcdn.com/avisos/18/00/65/45/01/73/720x532/341697651.jpg"
+    },
+{
+    "id": "4",
+    "name": "The Willows",
+    "Address": "3517 W. Gray St. Utica",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "surface": "140 ft²",
+    "rental": "$140/m",
+    "grade": "3.0",
+    "image": "https://www.empiriamx.com/wp-content/uploads/2021/03/3_avance-de-obra-20210320_125837.jpg"
+    },
+{
+    "id": "5",
+    "name": "Corner House",
+    "Address": "3517 W. Gray St. Utica",
+    "bedrooms": "3",
+    "bathrooms": "3",
+    "surface": "230 ft²",
+    "rental": "$440/m",
+    "grade": "4.1",
+    "image": "https://images.adsttc.com/media/images/5f10/86ea/b357/65e1/f700/0093/medium_jpg/Barranca_14_dmparquitectura_017.jpg?1594918627"
+    },
+{
+    "id": "6",
+    "name": "The Willows",
+    "Address": "3517 W. Gray St. Utica",
+    "bedrooms": "4",
+    "bathrooms": "4",
+    "surface": "630 ft²",
+    "rental": "$740/m",
+    "grade": "4.9",
+    "image": "https://i.pinimg.com/236x/d1/f7/e6/d1f7e6fa09af93179fcee76459277704.jpg"
+    }
+]
+}
