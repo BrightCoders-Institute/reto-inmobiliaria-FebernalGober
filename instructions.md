@@ -12,7 +12,7 @@
 - [Flujo de trabajo sugerido](#bulb-flujo-de-trabajo-sugerido)
 - [Indicadores de cumplimiento](#-indicadores-de-cumplimiento)
 - [Recursos](#-recursos)
-  
+
 # 🚀 App Inmobiliaria
 
 - **Organización.** [Individual](https://github.com/BrightCoders-Institute/handbook/wiki/Actividades#actividades-individuales-as%C3%ADncronas)
@@ -43,7 +43,7 @@
 - Para evaluar la consistencia y calidad del código sdeberás utilizar herramientas de análisis de código estático como Codacy, CodeClimate, CodeCov, etc.
 - Se utilizará ESLint para verificar el estilo de código.
 - La solución deberá incluir pruebas unitarias.
-- La solución  deberá seguir el enfoque de desarrollo por componentes.
+- La solución deberá seguir el enfoque de desarrollo por componentes.
 - Al realizar los commits, es importante aplicar los conceptos relacionados con los commits significativos, asegurándose de que cada commit represente un cambio lógico y coherente en el código.
 - Se aplicarán principios de buena calidad de código como SOLID, DRY, KISS, YAGNI, etc.
 
@@ -65,7 +65,7 @@
 
 # :computer: Requerimientos funcionales
 
- Una empresa inmobiliaria necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta. 
+Una empresa inmobiliaria necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta.
 
 1. La App debe permitir a la empresa inmobiliaria mostrar un listado de todas las propiedades disponibles para renta.
 2. Para cada propiedad, se debe mostrar la siguiente información:
@@ -88,14 +88,17 @@ En la carpeta [design](/design) se encuentra el diseño solicitado.
 # 🚨 Requerimientos no-funcionales
 
 - **Base de datos**:
+
   - Los datos de las propiedades disponibles se obtendrán de un archivo local en formato JSON.
   - Se debe implementar un mecanismo de lectura y parseo del archivo JSON para obtener la información de las propiedades.
 
 - **Calidad**:
+
   - El código de la aplicación debe seguir un estilo de código estandarizado, el cual será revisado y asegurado mediante el uso de Eslint u herramientas similares.
   - Se debe lograr una puntuación **A** en herramientas de análisis de código estático como CodeClimate o similares. Esto implica mantener un código limpio, legible y bien estructurado.
 
 - **Ejecución**:
+
   - La aplicación debe ser compatible con los sistemas operativos Android y/o iOS.
   - Se deben realizar pruebas exhaustivas en ambos sistemas para garantizar un funcionamiento correcto y sin problemas.
 
@@ -108,15 +111,18 @@ En la carpeta [design](/design) se encuentra el diseño solicitado.
 A continuación se presenta un flujo de trabajo sugerido para el desarrollo de la aplicación. Si el equipo decide seguir otro enfoque, es válido siempre y cuando se logre el mismo resultado:
 
 1. **Creación de componentes reutilizables**:
+
    - Identificar los componentes necesarios para la pantalla principal según los requerimientos.
    - Desarrollar componentes reutilizables que cumplan con las funcionalidades requeridas.
    - Probar y asegurarse de que los componentes funcionen correctamente de manera independiente.
 
 2. **Implementación de la pantalla principal**:
-   - Crear la pantalla principal que muestre el listado de  propiedades disponibles.
+
+   - Crear la pantalla principal que muestre el listado de propiedades disponibles.
    - Realizar pruebas exhaustivas para asegurar el correcto funcionamiento de la pantalla principal.
 
 3. **Integración y pruebas**:
+
    - Integrar la pantalla principal en la navegación de la aplicación.
    - Realizar pruebas de integración para asegurar que todas las funcionalidades se ejecuten sin problemas.
    - Corregir cualquier error o problema identificado durante las pruebas.
@@ -129,38 +135,45 @@ A continuación se presenta un flujo de trabajo sugerido para el desarrollo de l
 # ✅ Indicadores de cumplimiento
 
 1. **Dominio de React Native:**
+
    - ¿Los participantes han adquirido conocimientos prácticos en el desarrollo de aplicaciones móviles utilizando React Native?
    - ¿Son capaces de crear componentes reutilizables y utilizar el modelo de programación por componentes de React Native?
    - ¿Han demostrado comprensión de los conceptos fundamentales de React Native, como el enrutamiento de navegación y el manejo de estado?
 
 2. **Desarrollo de interfaces interactivas y atractivas:**
+
    - ¿Los participantes son capaces de diseñar y construir pantallas interactivas y atractivas para aplicaciones móviles?
    - ¿Han utilizado correctamente los componentes de React Native para crear interfaces intuitivas y visualmente atractivas?
    - ¿Han aplicado principios de diseño de UI/UX para mejorar la experiencia del usuario?
 
 3. **Aplicación de buenas prácticas de desarrollo de software:**
+
    - ¿Se han aplicado buenas prácticas de desarrollo de software, como el uso de herramientas de análisis de código estático (Codacy, CodeClimate, CodeCov)?
    - ¿El código fuente cumple con los estándares de calidad y está organizado de manera estructurada y legible?
    - ¿Se han seguido principios como SOLID, DRY, KISS, YAGNI, etc. en el diseño y la implementación del código fuente?
 
 4. **Desarrollo de pruebas unitarias:**
+
    - ¿Se han desarrollado pruebas unitarias exhaustivas que cubren todas las funcionalidades y componentes principales de la aplicación?
    - ¿Las pruebas unitarias son efectivas para garantizar la funcionalidad y la robustez de la aplicación móvil desarrollada?
    - ¿Se han utilizado herramientas y frameworks de pruebas adecuados para React Native, como Jest?
 
 5. **Uso correcto de herramientas de control de versiones (Git y GitHub):**
+
    - ¿Se ha utilizado correctamente Git y GitHub para el control de versiones en el proyecto?
 
 6. **Cumplimiento de los requerimientos funcionales y no funcionales:**
+
    - ¿La aplicación móvil cumple con todos los requerimientos ?
    - ¿Se ha cumplido con los requerimientos no funcionales, como la lectura de datos desde un archivo JSON, la calidad del código y la ejecución en sistemas operativos Android y/o iOS?
 
 7. **Utilización del canal de #support en Slack**
+
    - ¿He utilizado el canal de #support en Slack para plantear dudas o solicitar ayuda?
 
 8. **Compartir recursos, materiales y tips de estudio/aprendizaje con mis compañeros**
    - ¿He participado activamente en la comunidad de brightcoders (slack, gather, etc.) compartiendo recursos, materiales y consejos?.
-  
+
 # 📚 Recursos
 
 - [Trabajo por componentes](https://brightcoders-2.gitbook.io/brightcoders-handbook/recursos/react-native/fundamentos#trabajo-por-componentes)
