@@ -1,10 +1,15 @@
 import react from 'react';
 import { SafeAreaView } from 'react-native'
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      
+      <Statusbar>
+        <View>
+          <Details/>
+        </View>
+      </Statusbar>
 
     </SafeAreaView>
   );
